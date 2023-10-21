@@ -13,7 +13,7 @@ def selection_sort(arr):
         # Обмен минимального элемента с элементом на текущей позиции
         arr[i], arr[min_index] = arr[min_index], arr[i]
 
-# Пример использования
-arr = [64, 25, 12, 22, 11]
-selection_sort(arr)
-print("Отсортированный массив:", arr)
+# Пример использования:
+my_list = [64, 34, 25, 12, 22, 11, 90]
+selection_sort(my_list)
+print("Отсортированный массив:", my_list)
